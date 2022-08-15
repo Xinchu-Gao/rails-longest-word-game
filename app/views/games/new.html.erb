@@ -1,0 +1,8 @@
+<h1>Welcome to the longest word-game!</h1>
+  <h2>New Game</h2>
+  <% @letters %>
+  <ul>
+    <% @letters.each do |letter| %>
+    <li> <%= letter.upcase %></li>
+    <% end %>
+  </ul>
